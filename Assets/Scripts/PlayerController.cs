@@ -45,6 +45,7 @@ public class PlayerController : MonoBehaviour
             shield = false;
             gameManager.ManagePowerupText(0);
             shieldPrefab.SetActive(false);
+            gameManager.PlaySound(2);
         } else
         {
             lives--;
